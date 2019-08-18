@@ -28,6 +28,7 @@ let ayucolor="mirage"
 colorscheme ayu
 
 set number 
+set title
 
 set ignorecase
 set smartcase
@@ -36,6 +37,7 @@ set hlsearch
 set autoindent
 set expandtab
 set tabstop=4
-set textwidth=79
+set textwidth=120
 let g:airline_theme='luna'
 
+autocmd vimenter * NERDTree 
